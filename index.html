@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moon Thai Spa | Jaipur, Rajasthan</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Moon Thai Spa – Jaipur's most luxurious wellness destination. Ayurvedic treatments, deep tissue massage, couple spa & more in the Pink City." />
+  <meta name="keywords" content="spa jaipur, therapy jaipur, massage jaipur, ayurvedic spa jaipur, best spa rajasthan, luxury spa jaipur" />
+  <meta name="author" content="Moon Thai Spa" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.serenityspa-jaipur.com" />
+
+  <!-- Open Graph / Facebook Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.serenityspa-jaipur.com" />
+  <meta property="og:title" content="Moon Thai Spa | Jaipur, Rajasthan" />
+  <meta property="og:description" content="Experience royal wellness in the heart of Jaipur. Ayurvedic, deep tissue, couple spa & more. Book your appointment today." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Moon Thai Spa Jaipur" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Moon Thai Spa | Jaipur" />
+  <meta name="twitter:description" content="Royal wellness in the Pink City. Book your spa appointment now." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=80" />
+
+  <!-- Instagram / Social -->
+  <meta property="og:see_also" content="https://www.instagram.com/serenityspa_jaipur" />
+  <meta property="og:see_also" content="https://www.facebook.com/serenityspa_jaipur" />
+  <meta property="og:see_also" content="https://www.youtube.com/@serenityspa_jaipur" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DaySpa",
+    "name": "Moon Thai Spa",
+    "description": "Luxury spa and therapy center in Jaipur offering Ayurvedic treatments, massage therapy, couple spa packages.",
+    "url": "https://www.serenityspa-jaipur.com",
+    "telephone": "+91-8306142773",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1st Floor, Shree Krishna Tower, Front of Coaching Hub, Near Pannadhay Circle, Savitri Vihar, Sanganer, Sector 9, Pratap Nagar",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "302033",
+      "addressCountry": "IN"
+    },
+    "openingHours": "Mo-Su 09:00-21:00",
+    "sameAs": [
+      "https://www.facebook.com/serenityspa_jaipur",
+      "https://www.instagram.com/serenityspa_jaipur",
+      "https://www.youtube.com/@serenityspa_jaipur"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    :root {
+      --gold:    #c9a96e;
+      --gold-lt: #e8d5b0;
+      --dark:    #1a120b;
+      --brown:   #3d2b1f;
+      --cream:   #faf6f0;
+      --text:    #4a3728;
+      --muted:   #8c7b6e;
+      --white:   #ffffff;
+      --wa:      #25D366;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Jost', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--cream); }
+    ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 999;
+      padding: 18px 60px;
+      display: flex; align-items: center; justify-content: space-between;
+      transition: all .4s ease;
+      background: transparent;
+    }
+    nav.scrolled {
+      background: rgba(26,18,11,.92);
+      backdrop-filter: blur(12px);
+      padding: 12px 60px;
+      box-shadow: 0 4px 30px rgba(0,0,0,.3);
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem; font-weight: 600;
+      color: var(--gold-lt);
+      letter-spacing: .08em;
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--gold); font-style: italic; }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a {
+      color: rgba(255,255,255,.85); font-size: .82rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      text-decoration: none; font-weight: 500;
+      transition: color .3s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--dark) !important;
+      padding: 9px 24px;
+      border-radius: 2px;
+      font-weight: 600 !important;
+    }
+    .nav-cta:hover { background: var(--gold-lt) !important; color: var(--dark) !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--gold-lt); transition: .3s; }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative; height: 100vh; min-height: 680px;
+      display: flex; align-items: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background: url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1600&q=90') center/cover no-repeat;
+      transform: scale(1.05);
+      animation: heroZoom 16s ease-in-out infinite alternate;
+    }
+    @keyframes heroZoom { from { transform: scale(1.05); } to { transform: scale(1.12); } }
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(120deg, rgba(26,18,11,.82) 40%, rgba(61,43,31,.55) 100%);
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      max-width: 680px; padding: 0 60px;
+      animation: fadeUp .9s ease both;
+    }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+    .hero-eyebrow {
+      font-family: 'Jost', sans-serif;
+      font-size: .72rem; letter-spacing: .3em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 18px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .hero-eyebrow::after { content: ''; display: block; width: 50px; height: 1px; background: var(--gold); }
+    .hero h1 {
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      font-weight: 300; line-height: 1.1;
+      color: var(--cream);
+      margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: italic; color: var(--gold-lt); }
+    .hero-desc {
+      font-size: 1.05rem; color: rgba(255,255,255,.72);
+      line-height: 1.75; margin-bottom: 40px; max-width: 480px;
+    }
+    .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--gold); color: var(--dark);
+      padding: 14px 36px; font-size: .84rem;
+      letter-spacing: .12em; text-transform: uppercase;
+      font-weight: 600; text-decoration: none;
+      border-radius: 2px; transition: .3s;
+      border: none; cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--gold-lt); transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent; color: var(--cream);
+      padding: 14px 36px; font-size: .84rem;
+      letter-spacing: .12em; text-transform: uppercase;
+      font-weight: 500; text-decoration: none;
+      border: 1px solid rgba(255,255,255,.4);
+      border-radius: 2px; transition: .3s; cursor: pointer;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    .hero-scroll {
+      position: absolute; bottom: 36px; left: 50%;
+      transform: translateX(-50%); z-index: 2;
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: rgba(255,255,255,.45); font-size: .7rem;
+      letter-spacing: .2em; text-transform: uppercase;
+      animation: bounce 2s infinite;
+    }
+    .hero-scroll i { font-size: 1.1rem; }
+    @keyframes bounce { 0%,100%{ transform: translateX(-50%) translateY(0); } 50%{ transform: translateX(-50%) translateY(8px); } }
+
+    /* ── SECTION BASE ── */
+    section { padding: 100px 60px; }
+    .section-tag {
+      font-size: .72rem; letter-spacing: .3em;
+      text-transform: uppercase; color: var(--gold);
+      margin-bottom: 14px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .section-tag::before { content: ''; display: block; width: 36px; height: 1px; background: var(--gold); }
+    .section-title {
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      font-weight: 400; line-height: 1.15;
+      color: var(--brown); margin-bottom: 18px;
+    }
+    .section-sub {
+      font-size: 1rem; color: var(--muted);
+      line-height: 1.8; max-width: 560px;
+    }
+
+    /* ── MARQUEE STRIP ── */
+    .strip {
+      background: var(--dark); padding: 16px 0;
+      overflow: hidden; white-space: nowrap;
+    }
+    .strip-inner {
+      display: inline-flex; gap: 60px;
+      animation: marquee 22s linear infinite;
+    }
+    .strip-item {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem; font-style: italic;
+      color: var(--gold-lt); letter-spacing: .06em;
+    }
+    .strip-dot { color: var(--gold); }
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+    /* ── ABOUT ── */
+    .about { background: var(--white); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px; align-items: center;
+      max-width: 1200px; margin: 0 auto;
+    }
+    .about-imgs {
+      position: relative; height: 540px;
+    }
+    .about-img-main {
+      position: absolute; top: 0; left: 0;
+      width: 75%; height: 82%;
+      border-radius: 4px; overflow: hidden;
+      box-shadow: 24px 24px 60px rgba(0,0,0,.15);
+    }
+    .about-img-main img { width: 100%; height: 100%; object-fit: cover; }
+    .about-img-accent {
+      position: absolute; bottom: 0; right: 0;
+      width: 55%; height: 52%;
+      border-radius: 4px; overflow: hidden;
+      box-shadow: -12px -12px 0 var(--gold);
+    }
+    .about-img-accent img { width: 100%; height: 100%; object-fit: cover; }
+    .about-badge {
+      position: absolute; top: 44%; left: 58%;
+      background: var(--dark);
+      color: var(--gold-lt);
+      padding: 20px 24px;
+      border-radius: 4px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,.25);
+      z-index: 2;
+    }
+    .about-badge strong { display: block; font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; line-height: 1; }
+    .about-badge span { font-size: .7rem; letter-spacing: .15em; text-transform: uppercase; color: var(--gold); }
+    .about-stats { display: flex; gap: 32px; margin-top: 40px; }
+    .stat { border-left: 2px solid var(--gold); padding-left: 18px; }
+    .stat strong { display: block; font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; color: var(--brown); }
+    .stat span { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+    /* ── SERVICES ── */
+    .services { background: var(--cream); }
+    .services-head { max-width: 1200px; margin: 0 auto 60px; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px; max-width: 1200px; margin: 0 auto;
+    }
+    .service-card {
+      position: relative; overflow: hidden;
+      border-radius: 6px; cursor: pointer;
+      aspect-ratio: 3/4;
+      transition: transform .4s ease;
+    }
+    .service-card:hover { transform: translateY(-8px); }
+    .service-card img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform .6s ease;
+    }
+    .service-card:hover img { transform: scale(1.07); }
+    .service-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, transparent 30%, rgba(26,18,11,.85) 100%);
+    }
+    .service-info {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 30px 28px;
+    }
+    .service-tag {
+      font-size: .65rem; letter-spacing: .22em;
+      text-transform: uppercase; color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .service-info h3 {
+      font-size: 1.6rem; font-weight: 400;
+      color: var(--cream); margin-bottom: 10px;
+    }
+    .service-info p { font-size: .85rem; color: rgba(255,255,255,.7); line-height: 1.6; }
+    .service-price {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 16px;
+      background: var(--gold); color: var(--dark);
+      font-size: .78rem; font-weight: 600;
+      letter-spacing: .1em; padding: 7px 16px;
+      border-radius: 2px;
+    }
+    .service-card:nth-child(2) { margin-top: 40px; }
+
+    /* ── EXPERIENCE ── */
+    .experience {
+      background: var(--dark);
+      padding: 100px 60px;
+    }
+    .experience-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 80px; align-items: center;
+      max-width: 1200px; margin: 0 auto;
+    }
+    .experience .section-title { color: var(--cream); }
+    .experience .section-sub { color: rgba(255,255,255,.55); }
+    .exp-features { margin-top: 44px; display: flex; flex-direction: column; gap: 26px; }
+    .exp-feat {
+      display: flex; gap: 20px; align-items: flex-start;
+    }
+    .feat-icon {
+      width: 46px; height: 46px; flex-shrink: 0;
+      background: rgba(201,169,110,.15);
+      border: 1px solid rgba(201,169,110,.3);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold); font-size: 1.1rem;
+    }
+    .feat-text h4 { color: var(--gold-lt); font-size: 1.15rem; margin-bottom: 5px; }
+    .feat-text p { color: rgba(255,255,255,.5); font-size: .88rem; line-height: 1.65; }
+    .experience-visual {
+      position: relative;
+    }
+    .exp-img-wrap {
+      border-radius: 8px; overflow: hidden;
+      height: 600px;
+      box-shadow: 0 40px 80px rgba(0,0,0,.5);
+    }
+    .exp-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .exp-float {
+      position: absolute; bottom: -24px; left: -36px;
+      background: var(--gold);
+      padding: 28px 30px;
+      border-radius: 6px;
+      box-shadow: 0 16px 40px rgba(0,0,0,.3);
+    }
+    .exp-float p { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--dark); font-style: italic; line-height: 1.3; }
+    .exp-float span { font-size: .72rem; color: rgba(26,18,11,.65); letter-spacing: .12em; text-transform: uppercase; margin-top: 8px; display: block; }
+
+    /* ── GALLERY ── */
+    .gallery { background: var(--white); }
+    .gallery-head { text-align: center; max-width: 600px; margin: 0 auto 60px; }
+    .gallery-head .section-tag { justify-content: center; }
+    .gallery-head .section-tag::before { display: none; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto;
+      gap: 14px; max-width: 1200px; margin: 0 auto;
+    }
+    .g-item {
+      overflow: hidden; border-radius: 4px;
+      position: relative;
+    }
+    .g-item:first-child { grid-column: span 2; grid-row: span 2; }
+    .g-item img { width: 100%; height: 100%; object-fit: cover; min-height: 220px; transition: transform .5s; }
+    .g-item:hover img { transform: scale(1.06); }
+    .g-overlay {
+      position: absolute; inset: 0;
+      background: rgba(26,18,11,.45);
+      opacity: 0; transition: .4s;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .g-overlay i { color: var(--gold); font-size: 1.8rem; }
+    .g-item:hover .g-overlay { opacity: 1; }
+
+    /* ── PACKAGES ── */
+    .packages { background: var(--cream); }
+    .packages-head { text-align: center; max-width: 600px; margin: 0 auto 60px; }
+    .packages-head .section-tag { justify-content: center; }
+    .packages-head .section-tag::before { display: none; }
+    .packages-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px; max-width: 1100px; margin: 0 auto;
+    }
+    .pkg-card {
+      background: var(--white);
+      border-radius: 8px; padding: 44px 36px;
+      position: relative; overflow: hidden;
+      border: 1px solid rgba(201,169,110,.2);
+      transition: transform .3s, box-shadow .3s;
+    }
+    .pkg-card:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,.1); }
+    .pkg-card.featured {
+      background: var(--dark);
+      border-color: var(--gold);
+    }
+    .pkg-card.featured::before {
+      content: 'MOST POPULAR';
+      position: absolute; top: 20px; right: -32px;
+      background: var(--gold); color: var(--dark);
+      font-size: .6rem; font-weight: 700; letter-spacing: .2em;
+      padding: 5px 50px;
+      transform: rotate(45deg);
+    }
+    .pkg-icon { font-size: 2rem; color: var(--gold); margin-bottom: 22px; }
+    .pkg-card h3 { font-size: 1.6rem; font-weight: 400; margin-bottom: 8px; color: var(--brown); }
+    .pkg-card.featured h3 { color: var(--cream); }
+    .pkg-duration {
+      font-size: .75rem; letter-spacing: .15em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 28px;
+    }
+    .pkg-card.featured .pkg-duration { color: rgba(255,255,255,.45); }
+    .pkg-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem; line-height: 1; color: var(--brown);
+      margin-bottom: 6px;
+    }
+    .pkg-card.featured .pkg-price { color: var(--gold); }
+    .pkg-price sup { font-size: 1.3rem; }
+    .pkg-price sub { font-size: .9rem; color: var(--muted); }
+    .pkg-divider { width: 40px; height: 1px; background: var(--gold); margin: 20px 0; }
+    .pkg-includes { list-style: none; margin-bottom: 36px; }
+    .pkg-includes li {
+      font-size: .88rem; color: var(--text);
+      padding: 8px 0; border-bottom: 1px solid rgba(201,169,110,.12);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .pkg-card.featured .pkg-includes li { color: rgba(255,255,255,.7); border-color: rgba(201,169,110,.15); }
+    .pkg-includes li i { color: var(--gold); font-size: .75rem; }
+    .btn-pkg {
+      width: 100%; padding: 14px;
+      font-size: .78rem; letter-spacing: .14em;
+      text-transform: uppercase; font-weight: 600;
+      border-radius: 3px; cursor: pointer;
+      border: 1px solid var(--gold);
+      background: transparent; color: var(--gold);
+      transition: .3s; font-family: 'Jost', sans-serif;
+    }
+    .btn-pkg:hover, .pkg-card.featured .btn-pkg {
+      background: var(--gold); color: var(--dark);
+    }
+    .pkg-card.featured .btn-pkg:hover { background: var(--gold-lt); }
+
+    /* ── BOOKING / PAYMENT ── */
+    .booking { background: var(--dark); }
+    .booking-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px; max-width: 1200px; margin: 0 auto;
+      align-items: start;
+    }
+    .booking-info .section-title { color: var(--cream); }
+    .booking-info .section-sub { color: rgba(255,255,255,.5); margin-bottom: 40px; }
+    .booking-details { display: flex; flex-direction: column; gap: 22px; margin-top: 16px; }
+    .b-detail {
+      display: flex; gap: 16px; align-items: flex-start;
+    }
+    .b-detail-icon {
+      width: 44px; height: 44px; flex-shrink: 0;
+      border: 1px solid rgba(201,169,110,.3);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold);
+    }
+    .b-detail-text h4 { color: var(--gold-lt); font-size: 1rem; margin-bottom: 3px; }
+    .b-detail-text p { color: rgba(255,255,255,.45); font-size: .85rem; line-height: 1.6; }
+    /* WhatsApp Booking */
+    .wa-booking {
+      margin-top: 40px;
+      background: rgba(37,211,102,.1);
+      border: 1px solid rgba(37,211,102,.3);
+      border-radius: 8px; padding: 24px 28px;
+    }
+    .wa-booking h4 { color: #fff; font-size: 1.1rem; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+    .wa-booking h4 i { color: var(--wa); }
+    .wa-booking p { color: rgba(255,255,255,.5); font-size: .85rem; margin-bottom: 18px; }
+    .btn-wa {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--wa); color: #fff;
+      padding: 13px 28px; border-radius: 4px;
+      font-size: .84rem; font-weight: 600;
+      letter-spacing: .06em; text-decoration: none;
+      transition: .3s; cursor: pointer; border: none;
+    }
+    .btn-wa:hover { background: #1da851; transform: translateY(-2px); }
+    /* Booking Form */
+    .booking-form {
+      background: var(--brown);
+      border-radius: 10px; padding: 44px;
+    }
+    .booking-form h3 {
+      font-size: 1.8rem; color: var(--cream);
+      margin-bottom: 32px; font-weight: 400;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block; font-size: .72rem;
+      letter-spacing: .15em; text-transform: uppercase;
+      color: var(--gold-lt); margin-bottom: 8px;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%; background: rgba(255,255,255,.06);
+      border: 1px solid rgba(201,169,110,.2);
+      border-radius: 4px; padding: 12px 16px;
+      color: var(--cream); font-family: 'Jost', sans-serif;
+      font-size: .9rem; outline: none; transition: .3s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--gold);
+      background: rgba(255,255,255,.09);
+    }
+    .form-group select option { background: var(--brown); color: var(--cream); }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+    /* Payment Method */
+    .pay-methods { margin: 24px 0; }
+    .pay-methods p { font-size: .72rem; letter-spacing: .15em; text-transform: uppercase; color: var(--gold-lt); margin-bottom: 12px; }
+    .pay-options { display: flex; gap: 12px; flex-wrap: wrap; }
+    .pay-opt {
+      flex: 1; min-width: 80px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(201,169,110,.2);
+      border-radius: 6px; padding: 12px 8px;
+      text-align: center; cursor: pointer;
+      transition: .3s; color: var(--gold-lt);
+      font-size: .75rem; letter-spacing: .08em;
+    }
+    .pay-opt i { display: block; font-size: 1.3rem; margin-bottom: 5px; }
+    .pay-opt:hover, .pay-opt.active {
+      border-color: var(--gold);
+      background: rgba(201,169,110,.12);
+      color: var(--gold);
+    }
+    .btn-book {
+      width: 100%; padding: 16px;
+      background: var(--gold); color: var(--dark);
+      font-size: .86rem; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+      border: none; border-radius: 4px; cursor: pointer;
+      font-family: 'Jost', sans-serif; transition: .3s;
+      margin-top: 8px;
+    }
+    .btn-book:hover { background: var(--gold-lt); transform: translateY(-2px); }
+    .upi-logos { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
+    .upi-logo {
+      background: rgba(255,255,255,.08); border-radius: 4px;
+      padding: 6px 12px; font-size: .7rem;
+      color: rgba(255,255,255,.5); letter-spacing: .08em;
+    }
+    .upi-id-box {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px; margin-top: 12px; padding: 12px 16px;
+      background: rgba(201,169,110,.1); border: 1px solid rgba(201,169,110,.3);
+      border-radius: 6px; flex-wrap: wrap;
+    }
+    .upi-id-box span { font-size: .8rem; color: var(--gold-lt); letter-spacing: .04em; }
+    .upi-id-box strong { color: var(--gold); font-weight: 600; }
+    .upi-copy-btn {
+      background: var(--gold); color: var(--dark); border: none;
+      padding: 6px 14px; font-size: .7rem; letter-spacing: .08em;
+      text-transform: uppercase; border-radius: 4px; cursor: pointer;
+      font-family: 'Jost', sans-serif; font-weight: 600; transition: .3s;
+    }
+    .upi-copy-btn:hover { background: var(--gold-lt); }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials { background: var(--cream); }
+    .test-head { text-align: center; max-width: 600px; margin: 0 auto 60px; }
+    .test-head .section-tag { justify-content: center; }
+    .test-head .section-tag::before { display: none; }
+    .test-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; max-width: 1100px; margin: 0 auto;
+    }
+    .test-card {
+      background: var(--white); border-radius: 8px;
+      padding: 36px; border: 1px solid rgba(201,169,110,.15);
+      transition: .3s;
+    }
+    .test-card:hover { box-shadow: 0 12px 36px rgba(0,0,0,.08); }
+    .test-stars { color: var(--gold); font-size: .9rem; margin-bottom: 18px; }
+    .test-card blockquote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem; line-height: 1.7;
+      color: var(--brown); margin-bottom: 24px; font-style: italic;
+    }
+    .test-author { display: flex; align-items: center; gap: 14px; }
+    .test-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      overflow: hidden; flex-shrink: 0;
+      border: 2px solid var(--gold);
+    }
+    .test-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .test-author-info strong { display: block; font-size: .9rem; color: var(--brown); }
+    .test-author-info span { font-size: .78rem; color: var(--muted); }
+
+    /* ── LOCATION ── */
+    .location-section { background: var(--white); }
+    .location-grid {
+      display: grid; grid-template-columns: 1fr 1.4fr;
+      gap: 60px; max-width: 1200px; margin: 0 auto; align-items: center;
+    }
+    .location-map {
+      border-radius: 10px; overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,.12);
+      height: 400px;
+    }
+    .location-map iframe { width: 100%; height: 100%; border: none; }
+    .location-info { padding: 20px 0; }
+    .location-info .section-title { color: var(--brown); }
+    .loc-details { margin-top: 32px; display: flex; flex-direction: column; gap: 20px; }
+    .loc-item { display: flex; gap: 16px; align-items: flex-start; }
+    .loc-icon { color: var(--gold); font-size: 1.1rem; margin-top: 3px; }
+    .loc-item h4 { font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .loc-item p { color: var(--text); font-size: .95rem; line-height: 1.6; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--dark); padding: 80px 60px 36px; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr;
+      gap: 60px; max-width: 1200px; margin: 0 auto 60px;
+    }
+    .footer-brand p {
+      color: rgba(255,255,255,.45); font-size: .88rem;
+      line-height: 1.8; margin: 16px 0 28px;
+    }
+    .social-links { display: flex; gap: 12px; }
+    .social-link {
+      width: 40px; height: 40px;
+      border: 1px solid rgba(201,169,110,.25);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,.5); font-size: .9rem;
+      text-decoration: none; transition: .3s;
+    }
+    .social-link:hover { border-color: var(--gold); color: var(--gold); background: rgba(201,169,110,.08); }
+    .social-link.fb:hover { color: #1877f2; border-color: #1877f2; }
+    .social-link.ig:hover { color: #e1306c; border-color: #e1306c; }
+    .social-link.yt:hover { color: #ff0000; border-color: #ff0000; }
+    .social-link.wa:hover { color: var(--wa); border-color: var(--wa); }
+    footer h4 { color: var(--gold-lt); font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 22px; }
+    footer ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    footer ul li a {
+      color: rgba(255,255,255,.45); font-size: .88rem;
+      text-decoration: none; transition: .3s;
+    }
+    footer ul li a:hover { color: var(--gold); padding-left: 6px; }
+    .footer-contact p { color: rgba(255,255,255,.45); font-size: .88rem; line-height: 1.7; }
+    .footer-contact p i { color: var(--gold); margin-right: 8px; }
+    .footer-contact p + p { margin-top: 12px; }
+    .footer-bottom {
+      max-width: 1200px; margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding-top: 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p { color: rgba(255,255,255,.28); font-size: .78rem; }
+    .footer-bottom a { color: var(--gold); text-decoration: none; }
+
+    /* ── FLOATING WA BUTTON ── */
+    .float-wa {
+      position: fixed; bottom: 28px; right: 28px;
+      width: 58px; height: 58px;
+      background: var(--wa);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem; color: #fff;
+      text-decoration: none; z-index: 998;
+      box-shadow: 0 6px 24px rgba(37,211,102,.45);
+      animation: pulse-wa 2.5s infinite;
+      transition: transform .3s;
+    }
+    .float-wa:hover { transform: scale(1.1); }
+    @keyframes pulse-wa {
+      0%,100%{ box-shadow: 0 6px 24px rgba(37,211,102,.45); }
+      50%{ box-shadow: 0 6px 36px rgba(37,211,102,.75), 0 0 0 10px rgba(37,211,102,.08); }
+    }
+    .float-wa-tooltip {
+      position: absolute; right: 68px;
+      background: var(--dark); color: #fff;
+      font-size: .78rem; white-space: nowrap;
+      padding: 7px 14px; border-radius: 4px;
+      opacity: 0; pointer-events: none; transition: .3s;
+    }
+    .float-wa:hover .float-wa-tooltip { opacity: 1; }
+
+    /* ── RESPONSIVE ── */
+    @media(max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .service-card:nth-child(2) { margin-top: 0; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .g-item:first-child { grid-column: span 2; grid-row: span 1; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media(max-width: 768px) {
+      nav { padding: 16px 24px; }
+      nav.scrolled { padding: 12px 24px; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      section { padding: 70px 24px; }
+      .hero-content { padding: 0 24px; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-imgs { display: none; }
+      .services-grid { grid-template-columns: 1fr; }
+      .experience-grid { grid-template-columns: 1fr; }
+      .exp-float { display: none; }
+      .packages-grid { grid-template-columns: 1fr; }
+      .booking-grid { grid-template-columns: 1fr; }
+      .test-grid { grid-template-columns: 1fr; }
+      .location-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+
+    /* ── MOBILE MENU ── */
+    .mobile-menu {
+      display: none; position: fixed; inset: 0;
+      background: rgba(26,18,11,.97);
+      z-index: 998; flex-direction: column;
+      align-items: center; justify-content: center; gap: 36px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem; color: var(--cream);
+      text-decoration: none; transition: color .3s;
+    }
+    .mobile-menu a:hover { color: var(--gold); }
+    .close-menu { position: absolute; top: 24px; right: 24px; background: none; border: none; color: var(--gold-lt); font-size: 1.8rem; cursor: pointer; }
+
+    /* ── NOTIFICATION ── */
+    .notify {
+      position: fixed; top: 90px; right: 24px; z-index: 9999;
+      background: var(--dark); color: var(--cream);
+      padding: 16px 22px; border-radius: 6px;
+      border-left: 3px solid var(--gold);
+      box-shadow: 0 8px 30px rgba(0,0,0,.35);
+      display: none; animation: slideIn .4s ease;
+      font-size: .9rem; max-width: 300px;
+    }
+    .notify.show { display: block; }
+    @keyframes slideIn { from { transform: translateX(60px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  </style>
+</head>
+<body>
+
+<!-- NOTIFICATION -->
+<div class="notify" id="notify">
+  <i class="fas fa-check-circle" style="color:var(--gold);margin-right:8px;"></i>
+  Booking request sent! We'll confirm shortly.
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" onclick="toggleMenu()"><i class="fas fa-times"></i></button>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#packages" onclick="toggleMenu()">Packages</a>
+  <a href="#booking" onclick="toggleMenu()">Book Now</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Moon Thai <span>Spa</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#booking" class="nav-cta">Book Now</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/918306142773?text=Hello%21%20I%27d%20like%20to%20book%20a%20spa%20appointment%20at%20Moon%20Thai%20Spa%20Jaipur." 
+   class="float-wa" target="_blank" rel="noopener" title="Book via WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="float-wa-tooltip">Book on WhatsApp</span>
+</a>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Jaipur, Rajasthan</div>
+    <h1>A Royal Path<br>to <em>Inner Peace</em></h1>
+    <p class="hero-desc">Discover ancient Ayurvedic rituals and modern therapeutic techniques crafted for your complete renewal — body, mind & spirit.</p>
+    <div class="hero-btns">
+      <a href="#booking" class="btn-primary">Book Appointment</a>
+      <a href="#services" class="btn-outline">Explore Services</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="strip-inner">
+    <span class="strip-item">Ayurvedic Massage</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Deep Tissue Therapy</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Couple Spa</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Hot Stone Ritual</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Aromatherapy</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Facial Treatments</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Body Wraps</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Reflexology</span><span class="strip-dot">✦</span>
+    <!-- duplicate for loop -->
+    <span class="strip-item">Ayurvedic Massage</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Deep Tissue Therapy</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Couple Spa</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Hot Stone Ritual</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Aromatherapy</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Facial Treatments</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Body Wraps</span><span class="strip-dot">✦</span>
+    <span class="strip-item">Reflexology</span><span class="strip-dot">✦</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-imgs">
+      <div class="about-img-main">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" alt="Spa interior Jaipur" loading="lazy"/>
+      </div>
+      <div class="about-img-accent">
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80" alt="Massage therapy" loading="lazy"/>
+      </div>
+      <div class="about-badge">
+        <strong>10+</strong>
+        <span>Years of Bliss</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-tag">Our Story</div>
+      <h2 class="section-title">Where Rajasthan's<br>Heritage Meets Wellness</h2>
+      <p class="section-sub">
+        Nestled in the heart of Jaipur's Pink City, Moon Thai Spa blends the ancient wisdom of Ayurveda with modern therapeutic science. Each treatment is a journey — from the hand-picked herbal oils to the soothing temple music that fills our rooms.
+      </p>
+      <p style="color:var(--muted);font-size:.9rem;line-height:1.8;margin-top:18px;">
+        Our certified therapists carry forward traditions passed down through generations, offering you more than just relaxation — a genuine transformation rooted in the royal wellness culture of Rajasthan.
+      </p>
+      <div class="about-stats">
+        <div class="stat">
+          <strong>8,500+</strong>
+          <span>Happy Clients</span>
+        </div>
+        <div class="stat">
+          <strong>24+</strong>
+          <span>Therapies</span>
+        </div>
+        <div class="stat">
+          <strong>15</strong>
+          <span>Expert Therapists</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-head">
+    <div class="section-tag">What We Offer</div>
+    <h2 class="section-title">Signature Therapies</h2>
+    <p class="section-sub">Each service is designed to restore balance, relieve tension, and awaken your senses using traditional and contemporary techniques.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=700&q=80" alt="Ayurvedic Massage" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Signature</div>
+        <h3>Abhyanga Ayurvedic</h3>
+        <p>Full-body warm oil massage rooted in 5,000-year-old Vedic traditions for deep healing.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>1,800 onwards</div>
+      </div>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=700&q=80" alt="Deep Tissue Massage" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Therapeutic</div>
+        <h3>Deep Tissue Relief</h3>
+        <p>Targets chronic muscle tension with focused pressure techniques for lasting pain relief.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>2,200 onwards</div>
+      </div>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1498842812179-c81beecf902c?w=700&q=80" alt="Couple Spa" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Romantic</div>
+        <h3>Couple Spa Ritual</h3>
+        <p>A shared sanctuary — side-by-side therapies with rose petals, champagne, and calm.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>4,500 for 2</div>
+      </div>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=700&q=80" alt="Hot Stone Therapy" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Luxury</div>
+        <h3>Hot Stone Ritual</h3>
+        <p>Heated basalt stones melt tension while improving circulation and creating deep warmth.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>2,800 onwards</div>
+      </div>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=700&q=80" alt="Aromatherapy" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Sensory</div>
+        <h3>Aromatherapy Bliss</h3>
+        <p>Essential oil infusions that calm the mind, lift mood, and nourish the skin gently.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>1,600 onwards</div>
+      </div>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&q=80" alt="Facial Treatment" loading="lazy"/>
+      <div class="service-overlay"></div>
+      <div class="service-info">
+        <div class="service-tag">Beauty</div>
+        <h3>Radiance Facial</h3>
+        <p>Brightening facial with natural herbs, saffron-infused masks, and LED light therapy.</p>
+        <div class="service-price"><i class="fas fa-rupee-sign"></i>1,400 onwards</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experience">
+  <div class="experience-grid">
+    <div>
+      <div class="section-tag" style="color:var(--gold);">Why Choose Us</div>
+      <h2 class="section-title">The Moon Thai Spa <em style="color:var(--gold-lt);">Difference</em></h2>
+      <p class="section-sub">We don't just offer treatments — we create experiences that stay with you long after you leave our doors.</p>
+      <div class="exp-features">
+        <div class="exp-feat">
+          <div class="feat-icon"><i class="fas fa-leaf"></i></div>
+          <div class="feat-text">
+            <h4>100% Natural Ingredients</h4>
+            <p>All our oils, masks and wraps use certified organic, locally sourced Rajasthani botanicals.</p>
+          </div>
+        </div>
+        <div class="exp-feat">
+          <div class="feat-icon"><i class="fas fa-user-md"></i></div>
+          <div class="feat-text">
+            <h4>Certified Therapists</h4>
+            <p>Our team holds international certifications and undergoes continuous training in advanced modalities.</p>
+          </div>
+        </div>
+        <div class="exp-feat">
+          <div class="feat-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="feat-text">
+            <h4>Hygiene & Privacy First</h4>
+            <p>Each suite is sanitised between sessions. We maintain strict privacy standards for your comfort.</p>
+          </div>
+        </div>
+        <div class="exp-feat">
+          <div class="feat-icon"><i class="fas fa-spa"></i></div>
+          <div class="feat-text">
+            <h4>Personalised Treatments</h4>
+            <p>Every session begins with a consultation to tailor the experience to your body and mind needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="experience-visual">
+      <div class="exp-img-wrap">
+        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&q=85" alt="Luxury spa suite" loading="lazy"/>
+      </div>
+      <div class="exp-float">
+        <p>"Healing is not just physical — it is the restoration of wholeness."</p>
+        <span>— Moon Thai Spa Philosophy</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="packages" id="packages">
+  <div class="packages-head">
+    <div class="section-tag">Value Plans</div>
+    <h2 class="section-title">Spa Packages</h2>
+    <p class="section-sub">Choose a package designed for every mood, occasion, and budget. All include complimentary herbal tea and consultation.</p>
+  </div>
+  <div class="packages-grid">
+    <!-- Basic -->
+    <div class="pkg-card">
+      <div class="pkg-icon"><i class="fas fa-seedling"></i></div>
+      <h3>Tranquil Escape</h3>
+      <div class="pkg-duration">60 Minutes</div>
+      <div class="pkg-price"><sup>₹</sup>1,499<sub>/session</sub></div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-includes">
+        <li><i class="fas fa-check"></i>Full Body Relaxation Massage</li>
+        <li><i class="fas fa-check"></i>Foot Reflexology (15 min)</li>
+        <li><i class="fas fa-check"></i>Head & Scalp Massage</li>
+        <li><i class="fas fa-check"></i>Herbal Tea Service</li>
+        <li><i class="fas fa-check"></i>Aromatherapy Candles</li>
+      </ul>
+      <button class="btn-pkg" onclick="openBooking('Tranquil Escape')">Book This Package</button>
+    </div>
+    <!-- Featured -->
+    <div class="pkg-card featured">
+      <div class="pkg-icon"><i class="fas fa-crown"></i></div>
+      <h3>Royal Thai</h3>
+      <div class="pkg-duration">120 Minutes</div>
+      <div class="pkg-price"><sup>₹</sup>2,999<sub>/session</sub></div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-includes">
+        <li><i class="fas fa-check"></i>Abhyanga Ayurvedic Massage</li>
+        <li><i class="fas fa-check"></i>Hot Stone Therapy</li>
+        <li><i class="fas fa-check"></i>Hydrating Facial</li>
+        <li><i class="fas fa-check"></i>Foot Scrub & Reflexology</li>
+        <li><i class="fas fa-check"></i>Steam Room Access</li>
+        <li><i class="fas fa-check"></i>Herbal Detox Tea + Snacks</li>
+      </ul>
+      <button class="btn-pkg" onclick="openBooking('Royal Thai')">Book This Package</button>
+    </div>
+    <!-- Premium -->
+    <div class="pkg-card">
+      <div class="pkg-icon"><i class="fas fa-heart"></i></div>
+      <h3>Couple's Retreat</h3>
+      <div class="pkg-duration">180 Minutes</div>
+      <div class="pkg-price"><sup>₹</sup>5,499<sub>/couple</sub></div>
+      <div class="pkg-divider"></div>
+      <ul class="pkg-includes">
+        <li><i class="fas fa-check"></i>Side-by-Side Couple Massage</li>
+        <li><i class="fas fa-check"></i>Rose Petal Bath</li>
+        <li><i class="fas fa-check"></i>Signature Facial for Two</li>
+        <li><i class="fas fa-check"></i>Private Suite Access</li>
+        <li><i class="fas fa-check"></i>Welcome Drink & Sweets</li>
+        <li><i class="fas fa-check"></i>Complementary Photograph</li>
+      </ul>
+      <button class="btn-pkg" onclick="openBooking('Couple\'s Retreat')">Book This Package</button>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="gallery-head">
+    <div class="section-tag">Ambiance</div>
+    <h2 class="section-title">Inside Moon Thai Spa</h2>
+    <p class="section-sub">A glimpse into our tranquil spaces — where every detail is designed for your peace.</p>
+  </div>
+  <div class="gallery-grid" style="max-width:1200px;margin:0 auto;">
+    <div class="g-item">
+      <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80" alt="Spa lobby" loading="lazy"/>
+      <div class="g-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+    <div class="g-item">
+      <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" alt="Massage room" loading="lazy"/>
+      <div class="g-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+    <div class="g-item">
+      <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80" alt="Facial treatment" loading="lazy"/>
+      <div class="g-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+    <div class="g-item">
+      <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=80" alt="Relaxation area" loading="lazy"/>
+      <div class="g-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+    <div class="g-item">
+      <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?w=600&q=80" alt="Herbal products" loading="lazy"/>
+      <div class="g-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="test-head">
+    <div class="section-tag">Client Love</div>
+    <h2 class="section-title">What Our Guests Say</h2>
+    <p class="section-sub">Hear from the souls who've found their serenity with us.</p>
+  </div>
+  <div class="test-grid">
+    <div class="test-card">
+      <div class="test-stars">★★★★★</div>
+      <blockquote>"The Royal Thai package was an absolute dream. I arrived exhausted and left feeling like I had a completely new body and mind. The therapists are incredibly skilled."</blockquote>
+      <div class="test-author">
+        <div class="test-avatar"><img src="https://i.pravatar.cc/100?img=47" alt="Priya S."/></div>
+        <div class="test-author-info"><strong>Priya Sharma</strong><span>Jaipur, Rajasthan</span></div>
+      </div>
+    </div>
+    <div class="test-card">
+      <div class="test-stars">★★★★★</div>
+      <blockquote>"We booked the Couple's Retreat for our anniversary — the rose petal bath, private suite, and the synchronized massage made it magical. Best decision ever."</blockquote>
+      <div class="test-author">
+        <div class="test-avatar"><img src="https://i.pravatar.cc/100?img=33" alt="Rahul M."/></div>
+        <div class="test-author-info"><strong>Rahul & Meena</strong><span>Delhi</span></div>
+      </div>
+    </div>
+    <div class="test-card">
+      <div class="test-stars">★★★★★</div>
+      <blockquote>"As someone who visits spas across India for work, Moon Thai Spa in Jaipur stands out. The Ayurvedic treatment quality and the ambiance — truly five stars."</blockquote>
+      <div class="test-author">
+        <div class="test-avatar"><img src="https://i.pravatar.cc/100?img=12" alt="Anjali K."/></div>
+        <div class="test-author-info"><strong>Anjali Kapoor</strong><span>Mumbai</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING & PAYMENT -->
+<section class="booking" id="booking">
+  <div class="booking-grid">
+    <div class="booking-info">
+      <div class="section-tag" style="color:var(--gold);">Book Your Visit</div>
+      <h2 class="section-title">Reserve Your<br><em style="color:var(--gold-lt);">Sanctuary</em></h2>
+      <p class="section-sub">Schedule your treatment online or reach us instantly via WhatsApp for the quickest confirmation.</p>
+      <div class="booking-details">
+        <div class="b-detail">
+          <div class="b-detail-icon"><i class="fas fa-clock"></i></div>
+          <div class="b-detail-text">
+            <h4>Operating Hours</h4>
+            <p>Monday – Sunday: 9:00 AM – 9:00 PM<br>Last appointment at 8:00 PM</p>
+          </div>
+        </div>
+        <div class="b-detail">
+          <div class="b-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="b-detail-text">
+            <h4>Location</h4>
+            <p>1st Floor, Shree Krishna Tower, Front of Coaching Hub, Near Pannadhay Circle, Savitri Vihar, Sanganer, Sector 9, Pratap Nagar<br>Jaipur, Rajasthan – 302033</p>
+          </div>
+        </div>
+        <div class="b-detail">
+          <div class="b-detail-icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="b-detail-text">
+            <h4>Call Us</h4>
+            <p>+91 83061 42773</p>
+          </div>
+        </div>
+      </div>
+      <div class="wa-booking">
+        <h4><i class="fab fa-whatsapp"></i> Instant WhatsApp Booking</h4>
+        <p>Send us a message and our team will confirm your slot within minutes. Available 9 AM – 9 PM daily.</p>
+        <a href="https://wa.me/918306142773?text=Hello%21%20I%27d%20like%20to%20book%20a%20spa%20appointment.%20Please%20share%20available%20slots." 
+           class="btn-wa" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Book via WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- BOOKING FORM WITH PAYMENT -->
+    <div class="booking-form">
+      <h3>Book an Appointment</h3>
+      <form id="bookingForm" onsubmit="submitBooking(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="Yash" required />
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Sharma" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 83061 42773" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Preferred Date</label>
+            <input type="date" id="dateInput" required />
+          </div>
+          <div class="form-group">
+            <label>Preferred Time</label>
+            <select required>
+              <option value="">Select a slot</option>
+              <option>9:00 AM</option>
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 PM</option>
+              <option>2:00 PM</option>
+              <option>3:00 PM</option>
+              <option>4:00 PM</option>
+              <option>5:00 PM</option>
+              <option>6:00 PM</option>
+              <option>7:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service / Package</label>
+          <select id="serviceSelect" required>
+            <option value="">Choose a service</option>
+            <option>Abhyanga Ayurvedic Massage</option>
+            <option>Deep Tissue Relief</option>
+            <option>Couple Spa Ritual</option>
+            <option>Hot Stone Ritual</option>
+            <option>Aromatherapy Bliss</option>
+            <option>Radiance Facial</option>
+            <option>Tranquil Escape Package – ₹1,499</option>
+            <option>Royal Thai Package – ₹2,999</option>
+            <option>Couple's Retreat Package – ₹5,499</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Special Requests</label>
+          <textarea placeholder="Any health conditions, preferences, or special requests..."></textarea>
+        </div>
+
+        <!-- PAYMENT SECTION -->
+        <div class="pay-methods">
+          <p>Choose Payment Method</p>
+          <div class="pay-options">
+            <div class="pay-opt active" onclick="selectPay(this)">
+              <i class="fas fa-mobile-alt"></i>UPI
+            </div>
+            <div class="pay-opt" onclick="selectPay(this)">
+              <i class="fas fa-credit-card"></i>Card
+            </div>
+            <div class="pay-opt" onclick="selectPay(this)">
+              <i class="fas fa-university"></i>Net Banking
+            </div>
+            <div class="pay-opt" onclick="selectPay(this)">
+              <i class="fas fa-money-bill-wave"></i>Pay at Spa
+            </div>
+          </div>
+        </div>
+        <div class="upi-logos">
+          <div class="upi-logo">GPay</div>
+          <div class="upi-logo">PhonePe</div>
+          <div class="upi-logo">Paytm</div>
+          <div class="upi-logo">BHIM UPI</div>
+          <div class="upi-logo">Razorpay</div>
+        </div>
+        <div class="upi-id-box">
+          <span>UPI ID: <strong>sunilshukla10@ibl</strong></span>
+          <button type="button" class="upi-copy-btn" onclick="navigator.clipboard.writeText('sunilshukla10@ibl'); this.textContent='Copied!'; setTimeout(()=>this.textContent='Copy', 1500);">Copy</button>
+        </div>
+        <button type="submit" class="btn-book" style="margin-top:24px;">
+          <i class="fas fa-spa" style="margin-right:8px;"></i>Confirm Appointment
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="location-section" id="contact">
+  <div class="location-grid">
+    <div class="location-info">
+      <div class="section-tag">Find Us</div>
+      <h2 class="section-title">Visit Us in<br>Pink City, Jaipur</h2>
+      <div class="loc-details">
+        <div class="loc-item">
+          <i class="fas fa-map-marker-alt loc-icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>1st Floor, Shree Krishna Tower, Front of Coaching Hub, Near Pannadhay Circle, Savitri Vihar, Sanganer, Sector 9, Pratap Nagar<br>Jaipur, Rajasthan – 302033</p>
+          </div>
+        </div>
+        <div class="loc-item">
+          <i class="fas fa-phone loc-icon"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 83061 42773 &nbsp;</p>
+          </div>
+        </div>
+        <div class="loc-item">
+          <i class="fas fa-envelope loc-icon"></i>
+          <div>
+            <h4>Email</h4>
+            <p>moonthai.spaa@gmail.com</p>
+          </div>
+        </div>
+        <div class="loc-item">
+          <i class="fas fa-clock loc-icon"></i>
+          <div>
+            <h4>Hours</h4>
+            <p>Every Day: 9:00 AM – 9:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <!-- Social Media Links -->
+      <div style="margin-top:36px;">
+        <p style="font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;">Follow Us</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/serenityspa_jaipur" target="_blank" rel="noopener" class="social-link fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/serenityspa_jaipur" target="_blank" rel="noopener" class="social-link ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@serenityspa_jaipur" target="_blank" rel="noopener" class="social-link yt" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/918306142773" target="_blank" rel="noopener" class="social-link wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="location-map">
+      <iframe
+        src="https://www.google.com/maps?q=Shree+Krishna+Tower,+Pannadhay+Circle,+Savitri+Vihar,+Sanganer,+Sector+9,+Pratap+Nagar,+Jaipur,+Rajasthan+302033&output=embed"
+        allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Moon Thai Spa Location Jaipur">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo" style="font-size:1.8rem;">Moon Thai <span>Spa</span></a>
+      <p>Jaipur's most cherished wellness destination — where royal heritage meets the art of healing. Every visit is a journey back to yourself.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/serenityspa_jaipur" target="_blank" rel="noopener" class="social-link fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/serenityspa_jaipur" target="_blank" rel="noopener" class="social-link ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@serenityspa_jaipur" target="_blank" rel="noopener" class="social-link yt" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/918306142773" target="_blank" rel="noopener" class="social-link wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Ayurvedic Massage</a></li>
+        <li><a href="#services">Deep Tissue Therapy</a></li>
+        <li><a href="#services">Couple Spa</a></li>
+        <li><a href="#services">Hot Stone Ritual</a></li>
+        <li><a href="#services">Aromatherapy</a></li>
+        <li><a href="#services">Radiance Facial</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#packages">Packages & Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Book Appointment</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p><i class="fas fa-map-marker-alt"></i>2nd Floor, Shree Krishna Tower, Front of Coaching Hub, Near Pannadhay Circle, Savitri Vihar, Sanganer, Sector 9, Pratap Nagar,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jaipur, Rajasthan 302033</p>
+      <p><i class="fas fa-phone-alt"></i>+91 83061 42773</p>
+      <p><i class="fas fa-envelope"></i>hotelshivapalace06@gmail.com</p>
+      <p><i class="fas fa-clock"></i>Daily: 9 AM – 9 PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Moon Thai Spa, Jaipur. All rights reserved.</p>
+    <p>Made with <i class="fas fa-heart" style="color:var(--gold);"></i> in the Pink City | <a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+  </div>
+</footer>
+
+<script>
+  // NAV SCROLL
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // MOBILE MENU
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  // SET MIN DATE
+  const dateInput = document.getElementById('dateInput');
+  if (dateInput) {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth()+1).padStart(2,'0');
+    const dd = String(today.getDate()).padStart(2,'0');
+    dateInput.min = `${yyyy}-${mm}-${dd}`;
+  }
+
+  // PAYMENT SELECT
+  function selectPay(el) {
+    document.querySelectorAll('.pay-opt').forEach(o => o.classList.remove('active'));
+    el.classList.add('active');
+  }
+
+  // OPEN BOOKING FROM PACKAGE
+  function openBooking(pkg) {
+    document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+    setTimeout(() => {
+      const sel = document.getElementById('serviceSelect');
+      for (let i=0; i<sel.options.length; i++) {
+        if (sel.options[i].text.includes(pkg.split("'")[0])) {
+          sel.selectedIndex = i; break;
+        }
+      }
+    }, 700);
+  }
+
+  // FORM SUBMIT
+  function submitBooking(e) {
+    e.preventDefault();
+    const notify = document.getElementById('notify');
+    notify.classList.add('show');
+    setTimeout(() => notify.classList.remove('show'), 4000);
+    e.target.reset();
+
+    // Also send to WhatsApp
+    const name = e.target.querySelector('input[type="text"]').value;
+    const service = document.getElementById('serviceSelect').value;
+    const date = dateInput.value;
+    const waMsg = encodeURIComponent(`Hello! I'd like to confirm my booking:\nService: ${service || 'TBD'}\nDate: ${date || 'TBD'}\nPlease confirm my appointment at Moon Thai Spa Jaipur.`);
+    setTimeout(() => {
+      window.open(`https://wa.me/918306142773?text=${waMsg}`, '_blank');
+    }, 600);
+  }
+
+  // SMOOTH ANCHOR
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const href = a.getAttribute('href');
+      if (href.length > 1) {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // INTERSECTION OBSERVER – fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.service-card, .pkg-card, .test-card, .g-item, .exp-feat').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(28px)';
+    el.style.transition = 'opacity .6s ease, transform .6s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
